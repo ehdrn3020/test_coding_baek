@@ -33,7 +33,7 @@ CPPZZ
 */
 
 const fs = require("fs");
-let input = fs.readFileSync("./test_coding_baek/input.txt").toString().trim().split('\r\n');
+let input = fs.readFileSync("./dev/stdin").toString().trim().split('\n');
 const n = input[0];
 const candy = input.slice(1).map(v => v.split(""));
 
