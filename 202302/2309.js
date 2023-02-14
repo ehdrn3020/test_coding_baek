@@ -36,10 +36,12 @@
 19
 20
 23
+
+알고리즘 분류 - 브루트 포스
 */
 
 const fs = require("fs");
-let input = fs.readFileSync("./test_coding_baek/input.txt").toString().trim().split('\r\n').map(Number);
+let input = fs.readFileSync("./dev/stdin").toString().trim().split('\r\n').map(Number);
 const total = input.reduce((sum, item) => sum + item, 0)
 let answer = '';
 for(let i=0; i < input.length; i++){
