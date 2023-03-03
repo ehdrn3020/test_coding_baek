@@ -38,6 +38,7 @@ const bfs = (graph, startNode) => {
 
 // console.log(bfs(graph, "A"));
 
+// 스택을 이용한 DFS
 const dfs = (graph, startNode) => {
     const visited = []; // 탐색을 마친 노드들
     let needVisit = []; // 탐색해야할 노드들 
